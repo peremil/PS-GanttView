@@ -1,10 +1,12 @@
 # PS-GanttView
 A jQuery Gantt Chart plugin
 
-Intruduction
+
+###Introduction
 PS-GanttView is a jQuery plugin to display a simple Gantt Chart or timetable from a JSON collection of data.
 
-Usage
+
+###Usage
 Include jQuery.PS-GanttView.js and PS-GanttView.css to youre project.
 
 Have a JSON collection of data ex.
