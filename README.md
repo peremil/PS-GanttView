@@ -10,11 +10,14 @@ PS_GanttView is a jQuery plugin to display a simple Gantt Chart or timetable fro
 Include jQuery.PS_GanttView.js and PS_GanttView.css to your project.
 
 Have a JSON collection of data ex.
+```
 {"task1":{"id":"1","title":"starta","description":"bla bla bla","status":"todo","start":"2015-03-01","end":"2015-03-06"},"task2":{"id":"2","title":"Jobba1","description":"bla bla bla","status":"todo","start":"2015-03-05","end":"2015-03-08"},"task3":{"id":"3","title":"Jobba2","description":"bla bla bla","status":"todo","start":"2015-03-08","end":"2015-03-16"},"task4":{"id":"4","title":"Avsluta","description":"bla bla bla","status":"todo","start":"2015-03-12","end":"2015-03-17"}}
+```
 
 Then call PS-GanttView with
+```
 $('#PS_GanttView').PS_GanttView(JSON-datacollection);
-
+```
 
 ###Options
 
@@ -33,5 +36,7 @@ The following functions are identified for future development.
 - Support for dependensies between tasks
   
 
-  
+ ###License
+ 
+ 
   
