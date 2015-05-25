@@ -24,15 +24,14 @@ jQuery 1.4
 
 ###Future changes
 The following functions are identified for future development.
-  Click on task/timeline to change task
-  Drag to resize task/timeline
-  Customize schedule
-  Colormark on timeline based on task type
-  Colormark on timeline based on owner
-  Support for milestones
-  Support for dependensies between tasks
+- Click on task/timeline to change task
+- Drag to resize task/timeline
+- Customize schedule
+- Colormark on timeline based on task type
+- Colormark on timeline based on owner
+- Support for milestones
+- Support for dependensies between tasks
   
 
-  
   
   
