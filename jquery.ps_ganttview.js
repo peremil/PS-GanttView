@@ -2,7 +2,6 @@
  * PS_GanttView v 0.0.1
  * pluging for creating a gantt scheme/timetable
  * Author: Per Sjöstedt
- * 
  * https://github.com/peremil/PS_GanttView
  * Licensed under the MIT license
  */
