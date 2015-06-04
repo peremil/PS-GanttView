@@ -1,17 +1,23 @@
- #PS_GanttView{position:relative; .clearfix();padding:2x;float:left;} 
- .PS_GanttView{width:720px; min-height: 250px; margin:0 auto;}
- .PS_GanttView{border-top:1px solid rgba(250,250,250,0.5);background-color:#333;position:relative}
- .PS_GanttView .tasklist{height:100%;position:absolute;top:15px;left:0;float:left}
- .PS_GanttView .tasklist section{float:left;width:80px;text-align:center;color:rgba(250,250,250,0.8);font-family:"Signika Negative";font-size:13px;line-height:24px;font-weight:lighter;border-left:1px dashed rgba(250,250,250,0.2);height:100%}
- .PS_GanttView .scale{height:100%;position:absolute;top:15px;left:80px;float:left}
- .PS_GanttView .scale section{float:left;width:19px;text-align:center;color:rgba(250,250,250,0.8);font-family:"Signika Negative";font-size:13px;line-height:24px;font-weight:lighter;border-left:1px dashed rgba(250,250,250,0.2);height:100%}
+
+ #ganttWrap{max-width:660px;margin-left:20px; position:relative; padding:2px;float:left;overflow-x:auto;overflow-y:auto;}
+
+ #PS_GanttView{position:relative;padding:2px;float:left} 
+ /*#PS_GanttView{position:relative; .clearfix();padding:2px;float:left} */
+ 
+ .PS_GanttView{width:580px; min-height: 200px; margin:0 auto;}
+ .PS_GanttView{border-top:1px solid rgba(250,250,250,0.5);background-color:#EEFFFF;position:relative}
+ .color-scheme-default {color:#979796;font-size:13px;font-weight:lighter;}
+ .PS_GanttView .tasklist{height:100%;position:absolute;top:20px;left:0;float:left;border-top:1px dashed rgba(0,100,200,0.2)}
+ .PS_GanttView .tasklist section{float:left;width:80px;text-align:center;line-height:24px;height:100%}
+ .PS_GanttView .scale{height:100%;position:absolute;top:21px;left:80px;float:left}
+ .PS_GanttView .scale section{float:left;width:19px;text-align:center;line-height:24px;border-left:1px dashed rgba(0,100,200,0.2);height:92%}
  .PS_GanttView .MonthScale{height:15px;position:absolute;top:0;left:80px;float:left}
- .PS_GanttView .MonthScale section{float:left;text-align:center;color:rgba(250,250,250,0.8);font-family:"Signika Negative";font-size:13px;line-height:24px;font-weight:lighter;border-left:1px dashed rgba(250,250,250,0.2);height:15px}
+ .PS_GanttView .MonthScale section{float:left;text-align:center;line-height:24px;border-left:1px dashed rgba(0,100,200,0.2);height:20px;border-bottom:1px dashed rgba(0,100,200,0.2)}
  .PS_GanttView.color-scheme-default .tasktube{background-color:RGBA(41, 71, 134, 1)}
  .PS_GanttView.color-scheme-alternative .tasktube{background-color:#f3552e}
- .PS_GanttView .data{margin:38px 0 0 0;padding:0;text-align:left;list-style-type:none;color:rgba(250,250,250,0.8);font-family:"Signika Negative";font-size:13px;overflow:hidden}
- .PS_GanttView .data li{margin:0 0 3px 0;line-height:22px;height:21px;display:block;clear:both;position:relative;white-space:nowrap}
+ .PS_GanttView .data{margin:43px 0 0 0;padding:0;text-align:left;list-style-type:none;font-size:13px;overflow:hidden;border-top:1px dashed rgba(0,100,200,0.2)}
+ .PS_GanttView .data li{margin:0 0 3px 0;line-height:22px;height:20px;display:block;clear:both;position:relative;white-space:nowrap;border-bottom:1px dashed rgba(0,100,200,0.2)}
  .PS_GanttView .data li:hover .tasktube{opacity:1}
- .PS_GanttView .data li .label{width:75px;font-weight:lighter;font-size:14px;padding-left:5px;line-height:21px;color:#979796;white-space:nowrap;float:left;}
+ .PS_GanttView .data li .label{width:75px;font-size:14px;padding-left:5px;line-height:21px;white-space:nowrap;float:left;}
  .PS_GanttView .data li .tasktube{width:24px;height:12px;display:block;float:left;position:relative;top:3px;border-radius:8px;margin:0 7px 0 0;opacity:0.7}
  
